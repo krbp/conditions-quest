@@ -22,7 +22,7 @@ class Program
                 Console.Write($"You have entered {num} which is lower than {limitB} which is the minimum\nResulting integer: {limitB}");
             }
         }
-        else
+        else if
         {
             if (num > limitB)
             {
@@ -32,6 +32,10 @@ class Program
             {
                 Console.Write($"You have entered {num} which is lower than {limitA} which is the minimum\nResulting integer: {limitA}");
             }
+        }
+        else
+        {
+            Console.Write("You're within boundaries");
         }
     }
 }
